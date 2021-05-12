@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:weightSum="6"
+    android:background="@drawable/img"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:gravity="bottom|center"
+        android:text="QUIZ ERGEBNIS"/>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="vertical"
+    android:gravity="center|bottom"
+    android:layout_weight="1.8"
+    >
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="wrap_content"
+        android:gravity="bottom"
+        android:layout_height="wrap_content"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="congratulations.json"
+        app:lottie_loop="true"/>
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="90dp"
+        android:src="@drawable/copa"/>
+</LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.4"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:textSize="21sp"
+                android:id="@+id/congo"
+                android:textStyle="bold"
+                android:text="Herzliche Glückwünsche"/>
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:id="@+id/score"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:layout_weight="0.4"
+        android:textStyle="bold"
+        android:text="Ihre Punktzahl ist 4 von 10"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.4"
+                android:text="Fang nochmal an"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/again"
+                android:clickable="true"
+                android:textColor="#99FFFFFF"
+                android:textSize="19sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AUSFAHRT"
+            android:id="@+id/ende"
+            android:textSize="20sp"
+            android:background="#fff"
+            android:clickable="true"
+            android:paddingTop="7dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingBottom="7dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+
+
+            />
+
+    </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
